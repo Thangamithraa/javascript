@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<h1>>, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function addOne()
+        {
+            document.getElementById('add').innerHTML++;
+        }
+        function abbrivate()
+        {
+            document.getElementById('abbr').innerHTML ='Sri Krishna College Of Engineering and Technology';
+        }
+    </script>
+</head>
+<body>
+    <h1 id="abbr">SKCET</h1>
+    <h1 id="add">0</h1>
+    <button onclick="alert('Accept terms and conditions')">Add 1</button>
+    <button onclick="prompt('Accept terms and conditions')">Add 2</button>
+    <button onclick="addOne()">Add 3</button>
+    <button onmouseover="addOne()">Add 4</button>
+    <button ondblclick="addOne()">Add 5</button>
+    <button onclick="abbrivate()">Abbreviate</button>
+</body>
+</html>
